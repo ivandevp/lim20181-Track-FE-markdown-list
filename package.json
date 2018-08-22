@@ -5,6 +5,9 @@
   "repository": "https://github.com/ivandevp/lim20181-Track-FE-markdown-list",
   "author": "Ivan Medina <medinadiazivan@gmail.com>",
   "license": "MIT",
+  "bin": {
+    "md-links": "./index.js"
+  },
   "devDependencies": {
     "eslint": "^5.4.0",
     "eslint-config-airbnb-base": "^13.1.0",
