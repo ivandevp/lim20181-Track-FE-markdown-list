@@ -6,11 +6,14 @@
   "author": "Ivan Medina <medinadiazivan@gmail.com>",
   "license": "MIT",
   "bin": {
-    "md-links": "./index.js"
+    "md-links": "./cli.js"
   },
   "devDependencies": {
     "eslint": "^5.4.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0"
+  },
+  "dependencies": {
+    "commander": "^2.17.1"
   }
 }
